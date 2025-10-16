@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ClientOnboardingController {
     @GetMapping("/api/onboard")
     public String onboardClient() {
-        return "Client onboarding successful!";
+        return "Client onboarding successful testing jenkins!";
     }
 }
 
